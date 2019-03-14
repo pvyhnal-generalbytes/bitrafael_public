@@ -75,6 +75,10 @@ dependencyVerifications {
     printUnusedAssertions false
 }
 
+dependencySubstitutions {
+    substitute file(batmDependencySubstitutionConfig)
+}
+
 /**
  * Basic release versioning workflow:
  *
